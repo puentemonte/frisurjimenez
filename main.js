@@ -7,9 +7,12 @@ class TruckScene extends Phaser.Scene {
 
     preload ()
     {
-        this.load.image('bg', '/frisurjimenez/fondo.jpg');
+        /*this.load.image('bg', '/frisurjimenez/fondo.jpg');
         this.load.image('wheel', '/frisurjimenez/ruedas.png');
-        this.load.image('truck', '/frisurjimenez/truck.png');
+        this.load.image('truck', '/frisurjimenez/truck.png');*/
+        this.load.image('bg', './img/fondo.jpg');
+        this.load.image('wheel', './img/ruedas.png');
+        this.load.image('truck', './img/truck.png');
     }
 
     create ()
@@ -57,11 +60,10 @@ const config = {
     canvas: document.getElementById('juego'),
     width: 1000,
     height: 281,
-    scale: {
-		mode: Phaser.Scale.FIT,  
-		autoCenter: Phaser.Scale.CENTER_HORIZONTALLY
-	},
     backgroundColor: '#FFFFFF',
+    scale: {
+		mode: Phaser.Scale.FIT
+	},
     physics: {
 		default: 'arcade',
 		arcade: {
