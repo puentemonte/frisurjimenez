@@ -7,9 +7,9 @@ export default class TruckScene extends Phaser.Scene {
 
     preload ()
     {
-        this.load.image('bg', '/fondo.jpg');
-        this.load.image('wheel', '/ruedas.png');
-        this.load.image('truck', '/truck.png');
+        this.load.image('bg', './fondo.jpg');
+        this.load.image('wheel', './ruedas.png');
+        this.load.image('truck', './truck.png');
     }
 
     create ()
