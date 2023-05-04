@@ -10,6 +10,12 @@
     font-family: KanitRegular;
     src: url('./fonts/Kanit-Regular.ttf');
 }
+@font-face {
+    font-family: KanitSemiBold;
+    src: url('./fonts/Kanit-SemiBold.ttf')
+}
+
+
 #juego {
     height: 281;
     width: 500;
@@ -35,6 +41,7 @@ a:hover {
 
 .empresas-img {
     max-width: 100%;
+    height: 270px;
 }
 
 .empresas-h5 {
@@ -64,19 +71,42 @@ p {
     color: rgb(72, 83, 156);
 }
 
+.kanit-md {
+    font-family: KanitMedium;
+}
+
+.kanit-thin {
+    font-family: KanitThin;
+}
+
+.kanit-semibold {
+    font-family: KanitSemiBold;
+}
+
+.kanit-reg {
+    font-family: KanitRegular;
+}
+
+.big-font {
+    font-size: 80px;
+}
+
+.md-font {
+    font-size: 40px;
+}
+
 .titulo {
     padding: 0;
     background-image: url('./img/frisur.jpg');
-    width: 100%;
-    height: 480px;
+    height: 500px;
     background-size: 1280px;
-    display: flex;
-    justify-content: center;
 }
 
 .titulo-h1 {
-    font-family: KanitMedium;
+    margin-top: 150px;
+    font-family: KanitRegular;
     color:white;
+    font-size: 70px;
 }
 
 .puerto-img {
@@ -91,4 +121,16 @@ p {
     color:black;
     font-family: KanitRegular;
     font-size: 12px;
+}
+
+.custom-mt {
+    margin-top: 50px;
+}
+
+.custom-padding {
+    padding: 20px;
+}
+
+.custom-mb {
+    margin-bottom: 50px;
 }
