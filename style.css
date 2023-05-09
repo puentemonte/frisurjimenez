@@ -21,12 +21,12 @@
     width: 500;
 }
 
-a {
+.navegacion {
     text-decoration: none;
     color: black;
 }
 
-a:hover {
+.navegacion:hover {
     color:black;
 }
 
@@ -97,9 +97,11 @@ p {
 
 .titulo {
     padding: 0;
+    margin: 0;
     background-image: url('./img/frisur.jpg');
+    max-width: 100%;
     height: 500px;
-    background-size: 1280px;
+    background-size: 1500px;
 }
 
 .titulo-h1 {
@@ -110,7 +112,7 @@ p {
 }
 
 .puerto-img {
-    width: 60%;
+    width: 75%;
 }
 
 .sm-icon {
@@ -120,7 +122,7 @@ p {
 .footer {
     color:black;
     font-family: KanitRegular;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .custom-mt {
@@ -133,4 +135,29 @@ p {
 
 .custom-mb {
     margin-bottom: 50px;
+}
+
+.justificado{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.margin-0 {
+    margin-right: 0;
+}
+
+.margin-l {
+    margin-left: 70px;
+}
+
+.margin-l-sm {
+    margin-left: 40px;
+}
+
+.margin-l-xsm {
+    margin-left: 27px;
+}
+
+.custom-size {
+    width: 600px;
 }

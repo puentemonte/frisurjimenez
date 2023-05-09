@@ -13,6 +13,7 @@ class TruckScene extends Phaser.Scene {
         this.load.image('bg', './img/fondo.jpg');
         this.load.image('wheel', './img/ruedas.png');
         this.load.image('truck', './img/truck.png');
+        this.load.image('truck_sm', './img/truck_sm.png');
     }
 
     create ()
