@@ -1,0 +1,3 @@
+justificar texto
+cambiar animación
+cambiar fonts
